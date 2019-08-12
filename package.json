@@ -1,0 +1,39 @@
+{
+  "name": "node-kubemq",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "jest": "^24.8.0",
+    "mocha": "^6.2.0"
+  },
+  "scripts": {
+    "test": "mocha tests"
+  },
+  "dependencies": {
+    "google-protobuf": "^3.9.1",
+    "grpc": "^1.22.2",
+    "luxon": "^1.17.2",
+    "uuid": "^3.3.2"
+  },
+  "description": "KubeMQ Connector for NodeJS",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/corelmax/node-kubemq.git"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "kubemq"
+  ],
+  "author": "Anucha Petchagun <big@bigthinks.io>",
+  "bugs": {
+    "url": "https://github.com/corelmax/node-kubemq/issues"
+  },
+  "homepage": "https://github.com/corelmax/node-kubemq#readme"
+}
